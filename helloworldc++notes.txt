@@ -5,3 +5,85 @@
 It seems that # is used for something else then notes...
 
 9:13 left off
+
+Main funtion is where the program begins, ?not compartmentalized like python?
+
+
+int main() {
+
+}
+invoke the program with the main funtion starting at the top
+
+at the end of the main funtion, you will want return 0
+
+int main() {
+
+return 0;
+}
+
+IF  YOU REACH RETURN ZERO, NO PROBLEMS IN program
+    iIF 1 IS RETURNED, THERE WAS AN ISSUE (a switch i guess)
+
+write some basic output in funtion
+
+std::cout          #Means standard 2 colons, c  out,   c means character and out means output
+
+std::cout  = standard character output
+
+<< means output, or left shift operator when used with numbers
+
+
+int main() {
+
+    return 0;
+    std::cout << "I like pizza";               add a semicolon at end, statement is done; semicolons are periods at end of sentance
+
+}
+
+run not debug
+
+Now you have an exe file or something???
+
+    std::cout << "I like pizza";
+    std::cout << "its really good!";
+    ALL THE Text is on one line...
+
+        std::cout << "I like pizza" << std::end;
+    std::cout << "its really good!";
+
+    I can run the code, but not c++, I guess i will just right lcikc to run code.
+
+    anyway "\n" also used after it, and better proformance wise
+
+    [Done] exited with code=0 in 2.386 seconds for  std::end, 
+
+[Done] exited with code=0 in 1.665 seconds for "\n'
+
+Endline  = std::endl and will flush the output buffer
+// are the comments in C++, (like # in python), so I will be using these for now on
+
+/*   */ is just like # but for multi line, similar to  """   """ in python i think
+
+
+__________part 1
+#include <iostream>
+
+int main() {
+
+    //This is a comment
+    /*
+    this is a
+    multi-line 
+    comment 
+    */
+
+    std::cout << "I like pizza" << '\n';
+    std::cout << "its really good!"<< '\n';
+    return 0;
+}
+//control alt n to run from now on
+__________part1 end
+
+part 2 start
+call the varible first, then assign varible... or do it in the same line
+int stores whole number.
