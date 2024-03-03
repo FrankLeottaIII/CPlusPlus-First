@@ -1,0 +1,7 @@
+<iostream> is a header file that contains funtions for basoc input and output operations
+
+#include   - means we are including that file.
+
+It seems that # is used for something else then notes...
+
+9:13 left off
